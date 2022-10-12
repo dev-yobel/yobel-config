@@ -1,2 +1,14 @@
 server:
-  port: 8003
+  port: 80803
+
+datasource:
+    url: jdbc:mysql://localhost:3306/empleado-service
+    username: root
+    password: 
+
+# JPA settings
+
+jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
