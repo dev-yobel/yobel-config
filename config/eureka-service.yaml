@@ -6,4 +6,4 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url: 
-      default-zone: http://135.132.0.3
+      default-zone: http://135.132.0.3:8761
